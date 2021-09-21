@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Roboto&display=swap');
+
+:root {
+    --background: rgb(131, 131, 131);
+    --card: rgb(213, 213, 213);
+    --secondary: rgb(26, 58, 136); 
+    --accent: rgb(52, 100, 163); 
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: var(--background);
+}
+
+button {
+    background-color: var(--card);
+    border: none;
+    cursor: pointer;
+    color: rgb(186, 186, 186);
+    font-size: 2rem;
+    margin: 0 0 auto 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Bonheur Royale', cursive;
+    width: 100%;
+    height: 4rem;
+    font-size: 3rem;
+    margin-bottom: -1.25rem;
+    color: var(--accent);
+    padding: 5px 5px 0 5px;
+
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    width: 90%;
+}
+
+h3 {
+    color: var(--accent);
+    font-size: .75rem;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    border-bottom: thin solid var(--background);
+    border-bottom-style: dashed;
+    font-size: 1rem;
+    padding-bottom: 20px;
+    word-wrap: break-word;
+}
+
+.liked {
+    color: var(--accent);
+}
+
+.container {
+    margin: auto;
+}
+
+.card {
+    margin: auto;
+    padding: 10px;
+    background-color: var(--card);
+}
+
+.header {
+    background-color: rgb(186, 186, 186);
+    margin-top: 30px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.headline {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin-right: 15px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    color: var(--card)
+}
+
+ul {
+    background-color: var(--secondary);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+}
+
+.bi-stars {
+    color: var(--accent);
+    background-color: none;
+    float: right;
+    font-size: 1.75rem;
+    margin-right: 10px;
+}
+
+.bi-plus-circle-fill {
+    background-color: var(--background);
+    color: var(--secondary);
+    cursor: pointer;
+    display: block;
+    font-size: 5rem;
+    margin: 1rem auto;
+    width: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 700px;
+    }
+}
