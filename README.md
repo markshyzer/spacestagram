@@ -2,6 +2,8 @@
 
 Spacestagram pulls images from NASA's Astronomy Picture of the Day API and displays them in a social-media style feed. By default, 10 images are selected at random (videos are excluded). 
 
+[See it in action](http://shyzer.ca/spacestagram/)
+
 ![](https://github.com/markshyzer/spacestagram/blob/main/spacestagram-screenshot.png)
 
 ## Features
